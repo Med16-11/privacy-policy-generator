@@ -29,7 +29,7 @@ const UploadForm = () => {
     setPrivacy('');
     setTerms('');
     try {
-      const res = await axios.post("http://localhost:4000/github", {
+      const res = await axios.post("https://privacy-policy-generator.onrender.com/github", {
         repoUrl: githubURL,
       });
 
